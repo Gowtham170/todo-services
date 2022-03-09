@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo service app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowtham170/todo-services.git"
+  },
+  "author": "gowtham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gowtham170/todo-services/issues"
+  },
+  "homepage": "https://github.com/Gowtham170/todo-services#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
